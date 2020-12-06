@@ -4,71 +4,50 @@
   <url>
     <loc>http://example.com/about/index.html</loc>
     
-    <lastmod>2020-12-05</lastmod>
+    <lastmod>2020-12-06</lastmod>
     
   </url>
   
   <url>
     <loc>http://example.com/2020/12/05/hello-world/</loc>
     
-    <lastmod>2020-12-05</lastmod>
+    <lastmod>2020-12-06</lastmod>
     
   </url>
   
   <url>
     <loc>http://example.com/categories/index.html</loc>
     
-    <lastmod>2020-12-05</lastmod>
+    <lastmod>2020-12-06</lastmod>
     
   </url>
   
   <url>
     <loc>http://example.com/tags/index.html</loc>
     
-    <lastmod>2020-12-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/2020/11/01/test/</loc>
-    
-    <lastmod>2020-12-05</lastmod>
+    <lastmod>2020-12-06</lastmod>
     
   </url>
   
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2020-12-05</lastmod>
+    <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://example.com/tags/tag-test1/</loc>
-    <lastmod>2020-12-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/tag-test2/</loc>
-    <lastmod>2020-12-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/PS3/</loc>
-    <lastmod>2020-12-05</lastmod>
+    <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Games/</loc>
-    <lastmod>2020-12-05</lastmod>
+    <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -76,22 +55,8 @@
 
   
   <url>
-    <loc>http://example.com/categories/python-cate/</loc>
-    <lastmod>2020-12-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/python-cate/zndx-cate/</loc>
-    <lastmod>2020-12-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/categories/Diary/</loc>
-    <lastmod>2020-12-05</lastmod>
+    <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
