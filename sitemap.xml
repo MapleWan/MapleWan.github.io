@@ -95,13 +95,6 @@
 
   
   <url>
-    <loc>http://example.com/tags/Hello-world-hexo/</loc>
-    <lastmod>2020-12-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/Tensorflow%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
@@ -130,14 +123,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Tensorflow-keras%E5%AE%9E%E6%88%98/</loc>
+    <loc>http://example.com/tags/Tensorflow-%E4%BD%8E%E9%98%B6API/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Tensorflow-%E4%BD%8E%E9%98%B6API/</loc>
+    <loc>http://example.com/tags/Tensorflow-keras%E5%AE%9E%E6%88%98/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -172,6 +165,13 @@
   </url>
   
   <url>
+    <loc>http://example.com/tags/Hello-world-hexo/</loc>
+    <lastmod>2020-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/Tensorflow-%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%AD%E7%BB%83/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
@@ -181,14 +181,14 @@
 
   
   <url>
-    <loc>http://example.com/categories/Hello/</loc>
+    <loc>http://example.com/categories/Tensorflow/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/Tensorflow/</loc>
+    <loc>http://example.com/categories/Hello/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
