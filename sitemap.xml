@@ -2,6 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/note_nonpublished/8_%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%AD%E7%BB%83.html</loc>
+    
+    <lastmod>2020-12-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/note_nonpublished/7-%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.html</loc>
+    
+    <lastmod>2020-12-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/note_nonpublished/6-dnn-%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.html</loc>
+    
+    <lastmod>2020-12-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/note_nonpublished/5_estimator%E4%B8%8Etf1.0.html</loc>
+    
+    <lastmod>2020-12-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/note_nonpublished/4_dataset%E7%9A%84%E4%BD%BF%E7%94%A8.html</loc>
+    
+    <lastmod>2020-12-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/note_nonpublished/3_lowAPI.html</loc>
+    
+    <lastmod>2020-12-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/note_nonpublished/2-keras%E5%AE%9E%E6%88%98.html</loc>
+    
+    <lastmod>2020-12-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/note_nonpublished/1_%E7%9B%AE%E5%BD%95.html</loc>
+    
+    <lastmod>2020-12-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://example.com/2020/12/13/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB-%E9%9D%A2%E5%90%91%E8%BE%B9%E7%9A%84%E5%9B%BE%E7%9A%84%E6%96%87%E6%A1%A3%E5%85%B3%E7%B3%BB%E6%8F%90%E5%8F%96/</loc>
     
     <lastmod>2020-12-14</lastmod>
@@ -33,62 +89,6 @@
     <loc>http://example.com/2020/12/13/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/</loc>
     
     <lastmod>2020-12-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/2020/11/16/1_%E7%9B%AE%E5%BD%95/</loc>
-    
-    <lastmod>2020-12-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/2020/11/17/2-keras%E5%AE%9E%E6%88%98/</loc>
-    
-    <lastmod>2020-12-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/2020/11/18/3_lowAPI/</loc>
-    
-    <lastmod>2020-12-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/2020/11/19/4_dataset%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
-    
-    <lastmod>2020-12-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/2020/11/20/5_estimator%E4%B8%8Etf1.0/</loc>
-    
-    <lastmod>2020-12-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/2020/11/21/6-dnn-%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</loc>
-    
-    <lastmod>2020-12-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/2020/11/22/7-%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</loc>
-    
-    <lastmod>2020-12-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/2020/11/23/8_%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%AD%E7%BB%83/</loc>
-    
-    <lastmod>2020-12-06</lastmod>
     
   </url>
   
@@ -130,84 +130,7 @@
 
   
   <url>
-    <loc>http://example.com/tags/Tensorflow%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Tensorflow%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Tensorflow/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Tensorflow-dataset-API/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Tensorflow-keras%E5%AE%9E%E6%88%98/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Tensorflow-estimator/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Tensorflow-%E4%BD%8E%E9%98%B6API/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Tensorflow-%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Tensorflow-dnn-%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/Hello-world-hexo/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Tensorflow-%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%AD%E7%BB%83/</loc>
     <lastmod>2020-12-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -249,20 +172,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E6%96%87%E6%A1%A3%E4%BF%A1%E6%81%AF%E6%8F%90%E5%8F%96/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/%E7%BB%93%E6%9E%84%E5%8C%96%E6%96%87%E6%A1%A3/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2020-12-14</lastmod>
     <changefreq>daily</changefreq>
@@ -276,14 +185,21 @@
     <priority>0.6</priority>
   </url>
   
-
-  
   <url>
-    <loc>http://example.com/categories/Tensorflow/</loc>
+    <loc>http://example.com/tags/%E6%96%87%E6%A1%A3%E4%BF%A1%E6%81%AF%E6%8F%90%E5%8F%96/</loc>
     <lastmod>2020-12-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E7%BB%93%E6%9E%84%E5%8C%96%E6%96%87%E6%A1%A3/</loc>
+    <lastmod>2020-12-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
   
   <url>
     <loc>http://example.com/categories/Hello/</loc>
