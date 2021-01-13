@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-12-16T02:35:12.069Z</updated>
+  <updated>2021-01-02T07:25:52.783Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python深度学习(第三章)_神经网络入门</title>
+    <link href="http://example.com/2021/01/02/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://example.com/2021/01/02/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</id>
+    <published>2021-01-02T07:19:03.000Z</published>
+    <updated>2021-01-02T07:25:52.783Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="电影评论分类（二分类问题）"><a href="#电影评论分类（二分类问题）" class="headerlink" title="电影评论分类（二分类问题）"></a>电影评论分类（二分类问题）</h1><p>数据库：包含来自互联网电影数据库（IMDB）的 50 000 条严重两极分 化的评论。数据集被分为用于训练的 25 000 条评论与用于测试的 25 000 条评论，训练集和测试 集都包含 50% 的正面评论和 50% 的负面评论。</p><pre><code class="lang-python">from keras.datasets import imdb(train_data, train_labels), (test_data,test_labels) = imdb.load_data(num_words=10000)# 查看在train_data中单词的最大索引# 在load_data中num_words=10000表示提取的是前10000个最常出现的word，故最大索引应该为9999max([max(sequence) for sequence in train_data])# word_index是一个dict，一个word对应一个索引，如&#39;fawn&#39;: 34701word_index = imdb.get_word_index()# 将word_index的key和value交换位置reverse_word_index = dict(    [(value, key) for (key, value) in word_index.items()])#将train_data中的第一条数据从word的index转化为word的内容# i-3是因为 0、1、2是为“padding”（填充）、“start of sequence”（序列开始）、“unknown”（未知词）分别保留的索引decoded_review = &#39; &#39;.join([    reverse_word_index.get(i - 3, &#39;?&#39;) for i in train_data[0]])</code></pre><p><img src="/2021/01/02/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/image-20210102152531111.png" alt="准备数据"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;电影评论分类（二分类问题）&quot;&gt;&lt;a href=&quot;#电影评论分类（二分类问题）&quot; class=&quot;headerlink&quot; title=&quot;电影评论分类（二分类问题）&quot;&gt;&lt;/a&gt;电影评论分类（二分类问题）&lt;/h1&gt;&lt;p&gt;数据库：包含来自互联网电影数据库（IMDB）的 50</summary>
+      
+    
+    
+    
+    <category term="Python深度学习(书籍)" scheme="http://example.com/categories/Python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-%E4%B9%A6%E7%B1%8D/"/>
+    
+    <category term="深度学习基础" scheme="http://example.com/categories/Python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-%E4%B9%A6%E7%B1%8D/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="书籍" scheme="http://example.com/tags/%E4%B9%A6%E7%B1%8D/"/>
+    
+    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python_基础补充(1)</title>
+    <link href="http://example.com/2021/01/02/Python-%E5%9F%BA%E7%A1%80%E8%A1%A5%E5%85%85/"/>
+    <id>http://example.com/2021/01/02/Python-%E5%9F%BA%E7%A1%80%E8%A1%A5%E5%85%85/</id>
+    <published>2021-01-02T06:50:10.000Z</published>
+    <updated>2021-01-02T07:45:40.256Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="dict"><a href="#dict" class="headerlink" title="dict()"></a>dict()</h1><p>dict()函数用来创建一个字典</p><pre><code class="lang-python">test_dict = dict(a=1,b=2,c=3,d=4)test_dict = dict(zip([&#39;one&#39;, &#39;two&#39;, &#39;three&#39;], [1, 2, 3]))    # 映射函数方式来构造字典test_dict = dict([(&#39;one&#39;, 1), (&#39;two&#39;, 2), (&#39;three&#39;, 3)])    # 可迭代对象方式来构造字典print(test_dict)</code></pre><h1 id="zip"><a href="#zip" class="headerlink" title="zip()"></a>zip()</h1><p>zip函数接受任意多个（包括0个和1个）序列作为参数，返回一个支持遍历的对象(Python2 版本返回一个tuple)</p><pre><code class="lang-python">x = [1, 2, 3]y = [4, 5, 6]z = [7, 8, 9]xyz = zip(x, y, z)xyz = [(1,4,7),(2,5,8),(3,6,9)]</code></pre><h1 id="enumerate"><a href="#enumerate" class="headerlink" title="enumerate()"></a>enumerate()</h1><p>enumerate() 函数用于将一个可遍历的数据对象(如列表、元组或字符串)组合为一个索引序列，同时列出数据和数据下标，一般用在 for 循环当中。</p><pre><code class="lang-python">seasons = [&#39;Spring&#39;, &#39;Summer&#39;, &#39;Fall&#39;, &#39;Winter&#39;]print(list(enumerate(seasons)))</code></pre><h1 id="dict的遍历"><a href="#dict的遍历" class="headerlink" title="dict的遍历"></a>dict的遍历</h1><pre><code class="lang-python">a = dict(a=1,b=2,c=3,d=4)#根据key获取值for key in a:    print(a[key])#根据key获取key和值#for key in a和 for key in a.keys():完全等价。for key in a.keys():    print(key,&quot;:&quot;,a[key])#遍历字典项如：(&#39;a&#39;, 1)for kv in a.items():    print(kv)#根据item获取键值for key,value in a.items():    print(key+&#39;:&#39;+str(value))</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;dict&quot;&gt;&lt;a href=&quot;#dict&quot; class=&quot;headerlink&quot; title=&quot;dict()&quot;&gt;&lt;/a&gt;dict()&lt;/h1&gt;&lt;p&gt;dict()函数用来创建一个字典&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;test_d</summary>
+      
+    
+    
+    
+    <category term="Python 基础知识补充" scheme="http://example.com/categories/Python-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85/"/>
+    
+    
+    <category term="Python基础知识" scheme="http://example.com/tags/Python%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+    <category term="Python语法" scheme="http://example.com/tags/Python%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>论文阅读_面向边图的文档关系提取</title>
@@ -64,13 +119,13 @@
     <category term="图神经网络" scheme="http://example.com/categories/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="图神经网络" scheme="http://example.com/tags/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
     
-    <category term="博客阅读" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2%E9%98%85%E8%AF%BB/"/>
+    <category term="图神经网络" scheme="http://example.com/tags/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
     
     <category term="深度学习" scheme="http://example.com/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    <category term="博客阅读" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   
