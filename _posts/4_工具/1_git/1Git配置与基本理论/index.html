@@ -17,31 +17,31 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha256-yIDrPSXHZdOZhAqiBP7CKzIwMQmRCJ8UeB8Jo17YC4o=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"maplewan.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="参考资料 1. 安装windows下载安装包（链接）    ‘‘下一步…..’’ Ubuntu中 apt update &amp; apt install git 2. 必要配置1234567# 设置用户名和email地址，必须设置的   global表示全局配置git config --global user.name &quot;MapleWan&quot;git config --globa">
 <meta property="og:type" content="article">
 <meta property="og:title" content="1Git配置与基本理论">
-<meta property="og:url" content="http://example.com/_posts/4_%E5%B7%A5%E5%85%B7/1_git/1Git%E9%85%8D%E7%BD%AE%E4%B8%8E%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA/index.html">
+<meta property="og:url" content="https://maplewan.github.io/_posts/4_%E5%B7%A5%E5%85%B7/1_git/1Git%E9%85%8D%E7%BD%AE%E4%B8%8E%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA/index.html">
 <meta property="og:site_name" content="MapleWan&#39;s Blog">
 <meta property="og:description" content="参考资料 1. 安装windows下载安装包（链接）    ‘‘下一步…..’’ Ubuntu中 apt update &amp; apt install git 2. 必要配置1234567# 设置用户名和email地址，必须设置的   global表示全局配置git config --global user.name &quot;MapleWan&quot;git config --globa">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/images/20230607005128.png">
-<meta property="og:image" content="http://example.com/images/20230607005825.png">
-<meta property="og:image" content="http://example.com/images/20230607010427.png">
+<meta property="og:image" content="https://maplewan.github.io/images/20230607005128.png">
+<meta property="og:image" content="https://maplewan.github.io/images/20230607005825.png">
+<meta property="og:image" content="https://maplewan.github.io/images/20230607010427.png">
 <meta property="article:published_time" content="2024-02-02T06:13:00.000Z">
 <meta property="article:modified_time" content="2024-02-02T06:30:40.658Z">
 <meta property="article:author" content="Maple Wan">
 <meta property="article:tag" content="git">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/images/20230607005128.png">
+<meta name="twitter:image" content="https://maplewan.github.io/images/20230607005128.png">
 
 
-<link rel="canonical" href="http://example.com/_posts/4_%E5%B7%A5%E5%85%B7/1_git/1Git%E9%85%8D%E7%BD%AE%E4%B8%8E%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA/">
+<link rel="canonical" href="https://maplewan.github.io/_posts/4_%E5%B7%A5%E5%85%B7/1_git/1Git%E9%85%8D%E7%BD%AE%E4%B8%8E%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/_posts/4_%E5%B7%A5%E5%85%B7/1_git/1Git%E9%85%8D%E7%BD%AE%E4%B8%8E%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA/","path":"_posts/4_工具/1_git/1Git配置与基本理论/","title":"1Git配置与基本理论"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://maplewan.github.io/_posts/4_%E5%B7%A5%E5%85%B7/1_git/1Git%E9%85%8D%E7%BD%AE%E4%B8%8E%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA/","path":"_posts/4_工具/1_git/1Git配置与基本理论/","title":"1Git配置与基本理论"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>1Git配置与基本理论 | MapleWan's Blog</title>
@@ -203,7 +203,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/_posts/4_%E5%B7%A5%E5%85%B7/1_git/1Git%E9%85%8D%E7%BD%AE%E4%B8%8E%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA/">
+    <link itemprop="mainEntityOfPage" href="https://maplewan.github.io/_posts/4_%E5%B7%A5%E5%85%B7/1_git/1Git%E9%85%8D%E7%BD%AE%E4%B8%8E%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
